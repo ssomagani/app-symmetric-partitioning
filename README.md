@@ -1,7 +1,7 @@
 # Project to demonstrate binding a client instance exclusively to a partition
 
 ## Description
-The code here demonstrates how to map instances 1-1 with partitions by doing 2 things -
+The code here demonstrates how to map instances 1-1 with partitions by doing the following -
 1. First, get the mapping of some possible mappings of partitions to partition keys.
 2. Create a HashMap in the application to map the instanceIds with the partitionKeys.
 3. Use the HashMap created above as the first argument to the stored procedure so that 1-1 mapping is achieved. 
